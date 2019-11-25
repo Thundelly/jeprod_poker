@@ -1,0 +1,109 @@
+{
+    "server": {
+        "currentPlayer": "playerNumber",
+        "roomAddress": "roomAddressToken",
+        "roomPasscode": "roomPassCode",
+        "numberOfPlayer": "numberOfPlayer"
+    },
+    "client": {
+        "clientID": "ID"
+    },
+    "game": {
+        "player": {
+            "playerNumber_1" : {
+                "playing": "True_False",
+                "won": "Default: False",
+                "hand": {
+                    "tileCount_1": {
+                        "tileValue": "tileColor"
+                    },
+                    "tileCount_2": {
+                        "tileValue": "tileColor"
+                    }
+                    // And on and on and on
+                }
+            },
+            "playerNumber_2" : {
+                "playing": "True_False",
+                "won": "Default: False",
+                "hand": {
+                    "tileCount_1": {
+                        "tileValue": "tileColor"
+                    },
+                    "tileCount_2": {
+                        "tileValue": "tileColor"
+                    }
+                    // And on and on and on
+                }
+            },
+            "playerNumber_3" : {
+                "playing": "True_False",
+                "won": "Default: False",
+                "hand": {
+                    "tileCount_1": {
+                        "tileValue": "tileColor"
+                    },
+                    "tileCount_2": {
+                        "tileValue": "tileColor"
+                    }
+                    // And on and on and on
+                }
+            },
+            "playerNumber_4" : {
+                "playing": "True_False",
+                "won": "Default: False",
+                "hand": {
+                    "tileCount_1": {
+                        "tileValue": "tileColor"
+                    },
+                    "tileCount_2": {
+                        "tileValue": "tileColor"
+                    }
+                    // And on and on and on
+                }
+            }
+        },
+        "table": {
+            "set1": {
+                "tileCount_1": {
+                    "tileValue": "tileColor"
+                },
+                "tileCount_2": {
+                    "tileValue": "tileColor"
+                }
+                // And on and on and on
+            },
+            "set2": {
+                "tileCount_1": {
+                    "tileValue": "tileColor"
+                },
+                "tileCount_2": {
+                    "tileValue": "tileColor"
+                }
+                // And on and on and on
+            },
+            "set3": {
+                "tileCount_1": {
+                    "tileValue": "tileColor"
+                },
+                "tileCount_2": {
+                    "tileValue": "tileColor"
+                }
+                // And on and on and on
+            }
+            // And on and on and on
+        },
+        "pile": {
+            "numberOfTilesLeft": "numberOfTilesLeft",
+            "tiles": {
+                "tileCount_1": {
+                    "tileValue": "tileColor"
+                },
+                "tileCount_2": {
+                    "tileValue": "tileColor"
+                }
+                // And on and on and on
+            }
+        }
+    }
+}

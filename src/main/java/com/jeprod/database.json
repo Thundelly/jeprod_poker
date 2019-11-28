@@ -1,108 +1,161 @@
 {
-    "server": {
-        "currentPlayer": "playerNumber",
-        "roomAddress": "roomAddressToken",
-        "roomPasscode": "roomPassCode",
-        "numberOfPlayer": "numberOfPlayer"
-    },
-    "client": {
-        "clientID": "ID"
-    },
-    "game": {
-        "player": {
-            "playerNumber_1" : {
-                "playing": "True_False",
-                "won": "Default: False",
-                "hand": {
-                    "tileCount_1": {
-                        "tileValue": "tileColor"
-                    },
-                    "tileCount_2": {
-                        "tileValue": "tileColor"
-                    }
-                    // And on and on and on
-                }
+    "r1": {
+        "numberOfPlayers": {
+
+        },
+        "deck": {
+
+        },
+        "p1": {
+            "hand": {
+
             },
-            "playerNumber_2" : {
-                "playing": "True_False",
-                "won": "Default: False",
-                "hand": {
-                    "tileCount_1": {
-                        "tileValue": "tileColor"
-                    },
-                    "tileCount_2": {
-                        "tileValue": "tileColor"
-                    }
-                    // And on and on and on
-                }
-            },
-            "playerNumber_3" : {
-                "playing": "True_False",
-                "won": "Default: False",
-                "hand": {
-                    "tileCount_1": {
-                        "tileValue": "tileColor"
-                    },
-                    "tileCount_2": {
-                        "tileValue": "tileColor"
-                    }
-                    // And on and on and on
-                }
-            },
-            "playerNumber_4" : {
-                "playing": "True_False",
-                "won": "Default: False",
-                "hand": {
-                    "tileCount_1": {
-                        "tileValue": "tileColor"
-                    },
-                    "tileCount_2": {
-                        "tileValue": "tileColor"
-                    }
-                    // And on and on and on
-                }
+            "money": {
+
             }
         },
-        "table": {
-            "set1": {
-                "tileCount_1": {
-                    "tileValue": "tileColor"
-                },
-                "tileCount_2": {
-                    "tileValue": "tileColor"
-                }
-                // And on and on and on
+        "p2": {
+            "hand":{
+
             },
-            "set2": {
-                "tileCount_1": {
-                    "tileValue": "tileColor"
-                },
-                "tileCount_2": {
-                    "tileValue": "tileColor"
-                }
-                // And on and on and on
-            },
-            "set3": {
-                "tileCount_1": {
-                    "tileValue": "tileColor"
-                },
-                "tileCount_2": {
-                    "tileValue": "tileColor"
-                }
-                // And on and on and on
+            "money": {
+
             }
-            // And on and on and on
         },
-        "pile": {
-            "numberOfTilesLeft": "numberOfTilesLeft",
-            "tiles": {
-                "tileCount_1": {
-                    "tileValue": "tileColor"
-                },
-                "tileCount_2": {
-                    "tileValue": "tileColor"
-                }
-                // And on and on and on
+        "p3": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        },
+        "p4": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        }
+    },
+    "r2": {
+        "numberOfPlayers": {
+
+        },
+        "deck": {
+
+        },
+        "p1": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        },
+        "p2": {
+            "hand":{
+
+            },
+            "money": {
+
+            }
+        },
+        "p3": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        },
+        "p4": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        }
+    },
+    "r3": {
+        "numberOfPlayers": {
+
+        },
+        "deck": {
+
+        },
+        "p1": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        },
+        "p2": {
+            "hand":{
+
+            },
+            "money": {
+
+            }
+        },
+        "p3": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        },
+        "p4": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        }
+    },
+    "r4": {
+        "numberOfPlayers": {
+
+        },
+        "deck": {
+
+        },
+        "p1": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        },
+        "p2": {
+            "hand":{
+
+            },
+            "money": {
+
+            }
+        },
+        "p3": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        },
+        "p4": {
+            "hand": {
+
+            },
+            "money": {
+
             }
         }
     }

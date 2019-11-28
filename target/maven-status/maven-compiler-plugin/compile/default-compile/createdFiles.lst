@@ -1,5 +1,7 @@
+com/jeprod/Deck.class
 module-info.class
 com/jeprod/PrimaryController.class
+com/jeprod/Card.class
 com/jeprod/Player.class
 com/jeprod/App.class
 com/jeprod/SecondaryController.class

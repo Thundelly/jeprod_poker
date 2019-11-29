@@ -7,12 +7,12 @@
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="SecondAnchorPane" prefHeight="465.0" prefWidth="638.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jeprod.displayRoomsController">
+<AnchorPane fx:id="SecondAnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #0A0E19;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jeprod.displayRoomsController">
    <children>
-      <GridPane prefHeight="465.0" prefWidth="638.0">
+      <GridPane prefHeight="600.0" prefWidth="800.0">
         <columnConstraints>
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
         </columnConstraints>
@@ -21,13 +21,76 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
-         <children>
-              <Button fx:id="secondaryButton" onAction="#switchToCurrentRoom" text="Switch to Tertiary View" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-              <Label text="Secondary View" GridPane.columnIndex="1" />
-         </children>
          <padding>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
          </padding>
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <Button fx:id="buttonJoinRoom1" layoutX="149.0" layoutY="120.0" mnemonicParsing="false" onAction="#switchToCurrentRoom" text="Join Room 1" />
+                  <Label layoutX="137.0" layoutY="64.0" text="Currently Present:" textFill="#00d0ff">
+                     <font>
+                        <Font name="Impact" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="267.0" layoutY="64.0" text="0" textFill="#00d0ff">
+                     <font>
+                        <Font name="Impact" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="buttonReturnToTitle" layoutX="144.0" layoutY="23.0" mnemonicParsing="false" text="Return to Title" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <Button fx:id="buttonJoinRoom2" layoutX="149.0" layoutY="120.0" mnemonicParsing="false" text="Join Room 2" />
+                  <Label layoutX="137.0" layoutY="64.0" text="Currently Present:" textFill="#00d0ff">
+                     <font>
+                        <Font name="Impact" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="267.0" layoutY="64.0" text="0" textFill="#00d0ff">
+                     <font>
+                        <Font name="Impact" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <Button fx:id="buttonJoinRoom4" layoutX="149.0" layoutY="120.0" mnemonicParsing="false" text="Join Room 4" />
+                  <Label layoutX="137.0" layoutY="64.0" text="Currently Present:" textFill="#00d0ff">
+                     <font>
+                        <Font name="Impact" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="267.0" layoutY="64.0" text="0" textFill="#00d0ff">
+                     <font>
+                        <Font name="Impact" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+               <children>
+                  <Button fx:id="buttonJoinRoom3" layoutX="149.0" layoutY="120.0" mnemonicParsing="false" text="Join Room 3" />
+                  <Label layoutX="137.0" layoutY="64.0" text="Currently Present:" textFill="#00d0ff">
+                     <font>
+                        <Font name="Impact" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="267.0" layoutY="64.0" text="0" textFill="#00d0ff">
+                     <font>
+                        <Font name="Impact" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
       </GridPane>
    </children>
 </AnchorPane>

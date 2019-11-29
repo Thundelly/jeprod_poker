@@ -1,11 +1,7 @@
 package com.jeprod;
 
-public class Player {
-    public static void main(String[] args) {
+import java.util.Vector;
 
-    }
-
-    public void test() {
-        System.out.println("HI DOES THIS WORK");
-    }
+class Player {
+    Vector<Card> hand = new Vector<>(5);
 }

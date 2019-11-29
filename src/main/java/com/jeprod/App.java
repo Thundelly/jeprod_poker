@@ -13,17 +13,22 @@ import java.io.IOException;
  */
 public class App extends Application {
 
+    private static Stage stage;
     private static Scene scene;
 
     @Override
-    public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("primary"));
+    public void start(Stage primaryStage) throws IOException {
+        stage = primaryStage;
+        scene = new Scene(loadFXML("openingPage"));
         stage.setScene(scene);
         stage.show();
     }
 
     static void setRoot(String fxml) throws IOException {
-        scene.setRoot(loadFXML(fxml));
+        /* Changed this method to load AND resize Scene
+         */
+        stage.getScene().setRoot(loadFXML(fxml));
+        stage.sizeToScene();
     }
 
     private static Parent loadFXML(String fxml) throws IOException {

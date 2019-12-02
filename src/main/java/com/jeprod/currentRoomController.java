@@ -6,7 +6,7 @@ import javafx.fxml.FXML;
 public class currentRoomController {
 
     @FXML
-    private void switchToPrimary() throws IOException {
+    private void switchToTitle() throws IOException {
         App.setRoot("openingPage");
     }
 }

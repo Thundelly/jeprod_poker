@@ -73,22 +73,54 @@ public class boardController {
 
     @FXML
     void ClickedCard2(MouseEvent event) {
-        PlayerCard2.setImage(new Image ("@../../image/PNG/red_back.png"));
+        if(!FlippedCard2){
+            PlayerCard2.setImage(new Image ("@../../image/PNG/red_back.png"));
+            FlippedCard2 = true;
+        }
+        else
+        {
+            PlayerCard2.setImage(new Image("@../../image/PNG/1S.png"));
+            FlippedCard2 = false;
+        }
     }
 
     @FXML
     void ClickedCard3(MouseEvent event) {
-
+        if(!FlippedCard3){
+            PlayerCard3.setImage(new Image ("@../../image/PNG/red_back.png"));
+            FlippedCard3 = true;
+        }
+        else
+        {
+            PlayerCard3.setImage(new Image("@../../image/PNG/1S.png"));
+            FlippedCard3 = false;
+        }
     }
 
     @FXML
     void ClickedCard4(MouseEvent event) {
-
+        if(!FlippedCard4){
+            PlayerCard4.setImage(new Image ("@../../image/PNG/red_back.png"));
+            FlippedCard4 = true;
+        }
+        else
+        {
+            PlayerCard4.setImage(new Image("@../../image/PNG/1S.png"));
+            FlippedCard4 = false;
+        }
     }
 
     @FXML
     void ClickedCard5(MouseEvent event) {
-
+        if(!FlippedCard5){
+            PlayerCard5.setImage(new Image ("@../../image/PNG/red_back.png"));
+            FlippedCard5 = true;
+        }
+        else
+        {
+            PlayerCard5.setImage(new Image("@../../image/PNG/1S.png"));
+            FlippedCard5 = false;
+        }
     }
 
     @FXML

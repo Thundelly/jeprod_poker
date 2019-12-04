@@ -21,6 +21,7 @@ public class App extends Application {
         stage = primaryStage;
         scene = new Scene(loadFXML("openingPage"));
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
     }
 
@@ -29,6 +30,7 @@ public class App extends Application {
          */
         stage.getScene().setRoot(loadFXML(fxml));
         stage.sizeToScene();
+        stage.setResizable(false);
     }
 
     private static Parent loadFXML(String fxml) throws IOException {

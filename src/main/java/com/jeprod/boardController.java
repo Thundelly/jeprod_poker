@@ -2,6 +2,7 @@ package com.jeprod;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 
@@ -45,6 +46,12 @@ public class boardController {
 
     @FXML
     private Button FoldButton;
+
+    @FXML
+    private Label Player1MoneyLabel;
+
+    @FXML
+    private Label Player2MoneyLabel;
 
     @FXML
     void ClickedCard1(MouseEvent event) {

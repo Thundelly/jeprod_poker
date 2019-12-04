@@ -3,10 +3,15 @@ package com.jeprod;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 
+import java.io.File;
+
 public class boardController {
+    private boolean FlippedCard1 = false, FlippedCard2 = false, FlippedCard3 = false, FlippedCard4 = false, FlippedCard5 = false;
+//    private Card[5] = card information goes here;
 
     @FXML
     private ImageView OpponentCard1;
@@ -55,12 +60,20 @@ public class boardController {
 
     @FXML
     void ClickedCard1(MouseEvent event) {
-
+        if(!FlippedCard1){
+            PlayerCard1.setImage(new Image ("@../../image/PNG/red_back.png"));
+            FlippedCard1 = true;
+        }
+        else
+        {
+            PlayerCard1.setImage(new Image("@../../image/PNG/1S.png"));
+            FlippedCard1 = false;
+        }
     }
 
     @FXML
     void ClickedCard2(MouseEvent event) {
-
+        PlayerCard2.setImage(new Image ("@../../image/PNG/red_back.png"));
     }
 
     @FXML

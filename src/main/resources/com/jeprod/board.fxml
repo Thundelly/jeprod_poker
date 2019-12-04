@@ -38,7 +38,10 @@
    <bottom>
       <HBox prefHeight="250.0" prefWidth="800.0" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fx:id="PlayerCard1" fitHeight="250.0" fitWidth="150.0" onMouseClicked="#ClickedCard1" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="PlayerCard1" fitHeight="250.0" fitWidth="150.0" onMouseClicked="#ClickedCard1" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/PNG/AS.png" />
+               </image></ImageView>
             <ImageView fx:id="PlayerCard2" fitHeight="250.0" fitWidth="150.0" onMouseClicked="#ClickedCard2" pickOnBounds="true" preserveRatio="true" />
             <ImageView fx:id="PlayerCard3" fitHeight="250.0" fitWidth="150.0" onMouseClicked="#ClickedCard3" pickOnBounds="true" preserveRatio="true" />
             <ImageView fx:id="PlayerCard4" fitHeight="250.0" fitWidth="150.0" onMouseClicked="#ClickedCard4" pickOnBounds="true" preserveRatio="true" />

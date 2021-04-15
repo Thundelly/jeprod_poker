@@ -1,0 +1,162 @@
+{
+    "r1": {
+        "numberOfPlayers": {
+
+        },
+        "deck": {
+
+        },
+        "p1": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        },
+        "p2": {
+            "hand":{
+
+            },
+            "money": {
+
+            }
+        },
+        "p3": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        },
+        "p4": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        }
+    },
+    "r2": {
+        "numberOfPlayers": {
+
+        },
+        "deck": {
+
+        },
+        "p1": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        },
+        "p2": {
+            "hand":{
+
+            },
+            "money": {
+
+            }
+        },
+        "p3": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        },
+        "p4": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        }
+    },
+    "r3": {
+        "numberOfPlayers": {
+
+        },
+        "deck": {
+
+        },
+        "p1": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        },
+        "p2": {
+            "hand":{
+
+            },
+            "money": {
+
+            }
+        },
+        "p3": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        },
+        "p4": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        }
+    },
+    "r4": {
+        "numberOfPlayers": {
+
+        },
+        "deck": {
+
+        },
+        "p1": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        },
+        "p2": {
+            "hand":{
+
+            },
+            "money": {
+
+            }
+        },
+        "p3": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        },
+        "p4": {
+            "hand": {
+
+            },
+            "money": {
+
+            }
+        }
+    }
+}
